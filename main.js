@@ -5,7 +5,7 @@ const koa = require('koa')
 const fs = require('fs')
 
 let app = new koa();
-app.listen(39010); //可自行修改监听端口
+app.listen(3000); //可自行修改监听端口
 let exec = require('child_process').exec
 
 //use()方法将中间件加入应用中
