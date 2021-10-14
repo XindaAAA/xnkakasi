@@ -7,9 +7,9 @@ kks = pykakasi.kakasi()
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(),encoding="utf-8")
 rText = "none"
 if len(sys.argv)<=1:
-    print ("未输入必选参数（文本）！")
-    sys.exit() #如果未输入必选参数（文本）则退出
-tMode = sys.argv[1] #读取第二个参数中的转化模式
+    print ("未输入必选参数！")
+    sys.exit() #如果未输入必选参数则退出
+tMode = sys.argv[1] #读取参数中的转化模式
 if tMode == "-ToRoma":
     ttMode="hepburn" #罗马音模式
 elif tMode == "-ToHira":
