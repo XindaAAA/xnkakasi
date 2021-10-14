@@ -26,8 +26,8 @@ textList = rText.split("\n")
 res=""
 for x in textList:
     t=""
-    a = kks.convert(x) #再将分词后的文本进行kakasi转化
+    a = kks.convert(x) #将文本进行kakasi转化
     for item in a:
-        t+=item[ttMode]+" "
+        t+=item[ttMode]+" " #利用kakasi的分词功能，词词间添加空格
     res+=t+"\n"
-print(res[0:len(res)-1])#去除末尾的\n
+print(res)
