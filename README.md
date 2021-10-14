@@ -11,18 +11,26 @@ I just use node.js to Call the python file so that I can use the method of node.
 Need node.js and python3.6+
 pykakasi (a python lib)
 
-### Install
+### Install/Use
 Ignore the process of installing node.js and python
-1.install pykakasi in pip
-` pip install pykakasi `
-2.download the file and upzip it
-3.open the terminal in the dir
-` npm install `
-4.now the deployment is over 
-5.launch the node server (default port is 3000, you can change it in file "main.js")
-` node main.js `
-6.test it on your browser (GET method)
-Please don't use Internet Explorer! Microsoft had abandoned it for a long time!
+
+1. install pykakasi in pip
+
+   ` pip install pykakasi `
+
+2. download the file and upzip it
+
+3. open the terminal in the dir
+
+   ` npm install `
+
+4. now the deployment is over 
+
+5. launch the node server (default port is 3000, you can change it in file "main.js")
+
+   ` node main.js `
+
+6. test it on your browser (GET method)
 
 > http://127.0.01:3000/user?content=大丈夫&mode=ToRoma 
 
@@ -30,7 +38,7 @@ Please don't use Internet Explorer! Microsoft had abandoned it for a long time!
 "ToRoma" means converting text to roma, you can use "ToHira" to convert it to Hiragana and “ToKana” to convert it to Katakana.
 
 
-| arguments | value | introduction |
+| Arguments | Value | Introduction |
 | -- | -- | -- |
 | content | any japanese text like "大丈夫" | The text need to be converted|
 | mode | ToRoma/ToHira/ToKana | The convert mode.If you don't input,  the default mode is ToRoma|
@@ -59,17 +67,26 @@ Please don't use Internet Explorer! Microsoft had abandoned it for a long time!
 需要部署node.js与python3.6+环境
 python需要安装pykakasi库
 
-### 安装
+### 安装/使用
 忽略Node.js和Python的安装过程
-1.在pip中安装pykakasi
-` pip install pykakasi `
-2.下载文件并解压
-3.在文件夹路径中打开终端
-` npm install `
-4.现在部署已经完成 
-5.启动Node服务器 (默认端口是 3000, 可以在main.js中修改)
-` node main.js `
-6.在浏览器中测试 (GET 方法)
+
+1. 在pip中安装pykakasi
+
+   ` pip install pykakasi `
+
+2. 下载文件并解压
+
+3. 在文件夹路径中打开终端
+
+   ` npm install `
+
+4. 现在部署已经完成 
+
+5. 启动Node服务器 (默认端口是 3000, 可以在main.js中修改)
+
+   ` node main.js `
+
+6. 在浏览器中测试 (GET 方法)
 
 > http://127.0.01:3000/user?content=大丈夫&mode=ToRoma 
 
