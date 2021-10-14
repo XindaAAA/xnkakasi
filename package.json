@@ -1,0 +1,29 @@
+{
+  "name": "xnkakasi",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xinda",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "koa": "^2.13.1"
+  },
+  "devDependencies": {},
+  "description": "use node.js to launch python and convert Japanese Text to Roma/Hira/Kana through pykakasi(a python lib)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XindaAAA/xnkakasi.git"
+  },
+  "keywords": [
+    "kakasi",
+    "japanese",
+    "translate",
+    "roma"
+  ],
+  "bugs": {
+    "url": "https://github.com/XindaAAA/xnkakasi/issues"
+  },
+  "homepage": "https://github.com/XindaAAA/xnkakasi#readme"
+}
